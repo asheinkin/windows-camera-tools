@@ -26,7 +26,8 @@ using namespace std;
 #include "common.h"
 #include "..\etw\jytrace.h"
 
-#pragma comment(lib, "..\\out\\libcore.lib")
+// #pragma comment(lib, "..\\out\\libcore.lib")
+#pragma comment(lib, "..\\x64\\Debug\\libcore.lib")
 
 static CContext ct;
 
